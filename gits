@@ -1,0 +1,28 @@
+#!/usr/bin/env python3
+
+try:
+  from lib.gitslib import *
+except Exception as e:
+  print("Fatal error!\nPlease check Python Installation.\nExiting.")
+  print("Error: " + str(e))
+  exit(0)
+
+try:
+  from sys import argv, exit
+except Exception as e:
+  print("Error importing standard libraries")
+  print("Error: " + str(e))
+  exit(0)
+
+# ====================================================================
+# Main function                                                      |
+#                                                                    |
+# ====================================================================
+def main(argv):
+  doexecute(argv)
+# ====================================================================
+# Python entrypoint - Do not delete!                   |
+#                                                                    |
+# ====================================================================
+if __name__ == '__main__':
+  main(argv)
