@@ -1,5 +1,6 @@
-# GITS  
-###  
+# GITS
+
+---  
 
 Python utility for orchestrating multi-module projects by wrapping the vanilla git command and utilising persistant settings.
 
@@ -30,7 +31,6 @@ Python 2.7 is a requirement for gits to function, as well as, the pyyaml library
 15. Type ```git push -u origin master``` and press Enter
 16. Type ```./gits clone``` and press Enter *(You may need to be connected to the VPN for this to function correctly)*
 
-
 ### Adding a new module to an existing multi-module project
 
 1. Open terminal in the root folder of your project
@@ -47,7 +47,7 @@ Python 2.7 is a requirement for gits to function, as well as, the pyyaml library
 ### Updating the multi-module project
 
 1. Open terminal in the root folder of your project
-2. Type ```git pull`` and press Enter
+2. Type ```git pull``` and press Enter
 3. Type ```./gits pull``` and press Enter
 
 ### Removing a module from an existing multi-module project

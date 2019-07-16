@@ -21,7 +21,7 @@ except Exception as e:
 def main(argv):
   doexecute(argv)
 # ====================================================================
-# Python entrypoint - Do not delete!                   |
+# Python entrypoint - Do not delete!                                 |
 #                                                                    |
 # ====================================================================
 if __name__ == '__main__':
